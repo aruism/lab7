@@ -1,5 +1,9 @@
 
 console.log(document);
+
+let title = document.createElement("title");
+title.innerText = "Lab7";
+document.head.appendChild(title);
 //Deleting Hello World h1 tag
 let helloworld = document.querySelector("h1"); 
 helloworld.remove();
